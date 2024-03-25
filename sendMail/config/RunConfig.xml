@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <common>
+        <attachments>/root/script/inspection/log/HostCheck.log,/root/script/networkSpeed/log/networkSpeedTest.log</attachments>
+    </common>
+    <mail>
+        <host>smtp.163.com</host>
+        <sender>cmrhyq@163.com</sender>
+        <license>SAPJXKYKNJICQDJH</license>
+        <receivers>1678336204@qq.com,kevin_kda@yahoo.com.au</receivers>
+    </mail>
+    <logs>
+        <path>/root/script/sendMail/logs</path>
+        <name>sendMail.log</name>
+        <level>DEBUG</level>
+        <size>104857600</size>
+    </logs>
+</root>

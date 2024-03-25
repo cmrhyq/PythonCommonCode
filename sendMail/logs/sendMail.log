@@ -1,0 +1,17 @@
+2022-10-23 01:47:28,072 - INFO - printLog.py:33 =-=-=-=-=-=-= Action send mail
+2022-10-23 01:47:28,073 - INFO - printLog.py:33 Email receivers have 1678336204<1678336204@qq.com>,kevin_kda<kevin_kda@yahoo.com.au>
+2022-10-23 01:47:28,073 - INFO - printLog.py:33 Start adding attachments named sendMail.log
+2022-10-23 01:47:28,458 - INFO - printLog.py:33 Takes a total of 0:00:00.386495 seconds
+2022-10-23 01:47:28,458 - INFO - printLog.py:33 =-=-=-=-=-=-= End send mail
+2022-10-26 23:16:52,620 - INFO - printLog.py:33 =-=-=-=-=-=-= Action send mail
+2022-10-26 23:16:52,620 - INFO - printLog.py:33 =-=-=-=-=-=-= Action send mail
+2022-10-26 23:16:52,621 - INFO - printLog.py:33 Email receivers have 1678336204<1678336204@qq.com>,kevin_kda<kevin_kda@yahoo.com.au>
+2022-10-26 23:16:52,621 - INFO - printLog.py:33 Email receivers have 1678336204<1678336204@qq.com>,kevin_kda<kevin_kda@yahoo.com.au>
+2022-10-26 23:16:52,621 - INFO - printLog.py:33 Start adding attachments named HostCheck.log
+2022-10-26 23:16:52,621 - INFO - printLog.py:33 Start adding attachments named HostCheck.log
+2022-10-26 23:16:52,623 - INFO - printLog.py:33 Start adding attachments named networkSpeedTest.log
+2022-10-26 23:16:52,623 - INFO - printLog.py:33 Start adding attachments named networkSpeedTest.log
+2022-10-26 23:16:53,304 - INFO - printLog.py:33 Takes a total of 684330 seconds
+2022-10-26 23:16:53,304 - INFO - printLog.py:33 Takes a total of 684330 seconds
+2022-10-26 23:16:53,305 - INFO - printLog.py:33 =-=-=-=-=-=-= End send mail
+2022-10-26 23:16:53,305 - INFO - printLog.py:33 =-=-=-=-=-=-= End send mail
