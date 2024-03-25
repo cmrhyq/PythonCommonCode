@@ -1,0 +1,7 @@
+2023-09-19 16:18:26.742 | INFO     | __main__:<module>:113 - 开始计算最优发票方案,发票文件夹路径为: ../../, 计算的需要的发票总金额为: 200.0
+2023-09-19 16:18:26.746 | ERROR    | __main__:get_pdf_from_folder:28 - 'NoneType' object has no attribute 'mime'
+2023-09-19 16:18:26.787 | INFO     | __main__:<module>:117 - 最接近总金额的发票组合为: [18.87, 35.46, 145.67]
+2023-09-19 16:19:44.623 | INFO     | __main__:<module>:113 - 开始计算最优发票方案,发票文件夹路径为: G:\5.Company\AsiaInfo\4.费用相关\报销\未使用, 计算的需要的发票总金额为: 200.0
+2023-09-19 16:19:44.627 | ERROR    | __main__:get_pdf_from_folder:28 - 'NoneType' object has no attribute 'mime'
+2023-09-19 16:19:44.711 | INFO     | __main__:<module>:117 - 最接近总金额的发票组合为: [18.87, 35.46, 145.67]
+2023-09-19 16:19:44.712 | INFO     | __main__:<module>:127 - 30S后窗口自动关闭

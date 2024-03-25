@@ -1,0 +1,22 @@
+2023-09-19 14:43:24.944 | ERROR    | __main__:get_pdf_from_folder:27 - 'NoneType' object has no attribute 'mime'
+2023-09-19 14:43:24.946 | INFO     | __main__:<module>:121 - 发票总金额为：1095.12
+2023-09-19 14:49:33.749 | INFO     | __main__:<module>:111 - 开始计算最优发票方案,发票文件夹路径为: ../, 计算的需要的发票总金额为: 100.0
+2023-09-19 14:49:33.752 | ERROR    | __main__:get_pdf_from_folder:26 - 'NoneType' object has no attribute 'mime'
+2023-09-19 14:49:33.821 | INFO     | __main__:<module>:115 - 最接近总金额的发票组合为:
+2023-09-19 14:49:50.173 | INFO     | __main__:<module>:111 - 开始计算最优发票方案,发票文件夹路径为: ../, 计算的需要的发票总金额为: 200.0
+2023-09-19 14:49:50.188 | ERROR    | __main__:get_pdf_from_folder:26 - 'NoneType' object has no attribute 'mime'
+2023-09-19 14:49:50.242 | INFO     | __main__:<module>:115 - 最接近总金额的发票组合为:
+2023-09-19 14:51:14.290 | INFO     | __main__:<module>:111 - 开始计算最优发票方案,发票文件夹路径为: ../, 计算的需要的发票总金额为: 200.0
+2023-09-19 14:51:14.304 | ERROR    | __main__:get_pdf_from_folder:26 - 'NoneType' object has no attribute 'mime'
+2023-09-19 14:51:14.355 | INFO     | __main__:<module>:116 - 最接近总金额的发票组合为:
+2023-09-19 14:51:36.355 | INFO     | __main__:<module>:111 - 开始计算最优发票方案,发票文件夹路径为: ../, 计算的需要的发票总金额为: 100.0
+2023-09-19 14:51:36.359 | ERROR    | __main__:get_pdf_from_folder:26 - 'NoneType' object has no attribute 'mime'
+2023-09-19 14:51:36.395 | INFO     | __main__:<module>:117 - 最接近总金额的发票组合为:
+2023-09-19 14:51:49.368 | INFO     | __main__:<module>:111 - 开始计算最优发票方案,发票文件夹路径为: ../, 计算的需要的发票总金额为: 200.0
+2023-09-19 14:51:49.371 | ERROR    | __main__:get_pdf_from_folder:26 - 'NoneType' object has no attribute 'mime'
+2023-09-19 14:51:49.428 | INFO     | __main__:<module>:117 - 最接近总金额的发票组合为:
+2023-09-19 14:58:24.776 | INFO     | __main__:<module>:111 - 开始计算最优发票方案,发票文件夹路径为: ../, 计算的需要的发票总金额为: 200.0
+2023-09-19 14:58:24.781 | ERROR    | __main__:get_pdf_from_folder:26 - 'NoneType' object has no attribute 'mime'
+2023-09-19 15:00:54.497 | INFO     | __main__:<module>:111 - 开始计算最优发票方案,发票文件夹路径为: ../, 计算的需要的发票总金额为: 200.0
+2023-09-19 15:00:54.511 | ERROR    | __main__:get_pdf_from_folder:26 - 'NoneType' object has no attribute 'mime'
+2023-09-19 15:00:54.569 | INFO     | __main__:<module>:116 - 最接近总金额的发票组合为: [18.87, 35.46, 145.67]
