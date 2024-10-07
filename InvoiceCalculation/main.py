@@ -106,23 +106,25 @@ def total_invoice_amount(invoice_files: list):
 
 
 if __name__ == '__main__':
-    folder_path = input("请输入发票PDF文件所在文件夹路径: ")
-    tools_choose = int(input("请选择工具：1=最优发票方案, 2=计算文件夹下所有发票的总额. 3=退出: "))
-    if tools_choose == 1:
-        need_amount = float(input("请输入需要多少发票金额: "))
-        logger.info("开始计算最优发票方案,发票文件夹路径为: {}, 计算的需要的发票总金额为: {}".format(folder_path, need_amount))
-        invoice = get_pdf_from_folder(folder_path)
-        amount_list = get_invoice_amount(invoice, 1)
-        assemble = find_closest_invoice_subset(need_amount, amount_list)
-        logger.info("最接近总金额的发票组合为: {}".format(assemble))
-    elif tools_choose == 2:
+    loop = True
+    while loop:
+        folder_path = input("请输入发票PDF文件所在文件夹路径: ")
+        tools_choose = int(input("请选择工具：1=最优发票方案, 2=计算文件夹下所有发票的总额. 3=退出: "))
         logger.info("开始计算最优发票方案,发票文件夹路径为: {}".format(folder_path))
-        invoice = get_pdf_from_folder(folder_path)
-        logger.info("发票总金额为：{}".format(str(total_invoice_amount(invoice))))
-    elif tools_choose == 3:
-        logger.info("程序退出")
-        sys.exit()
-    else:
-        logger.warning("暂无此功能")
-    logger.info("30S后窗口自动关闭")
-    sleep(30)
+        if tools_choose == 1:
+            need_amount = float(input("请输入需要多少发票金额: "))
+            logger.info("计算的需要的发票总金额为: {}".format(need_amount))
+            invoice = get_pdf_from_folder(folder_path)
+            amount_list = get_invoice_amount(invoice, 1)
+            assemble = find_closest_invoice_subset(need_amount, amount_list)
+            logger.info("最接近总金额的发票组合为: {}".format(assemble))
+        elif tools_choose == 2:
+            invoice = get_pdf_from_folder(folder_path)
+            logger.info("发票总金额为：{}".format(str(total_invoice_amount(invoice))))
+        elif tools_choose == 3:
+            logger.info("程序退出")
+            loop = False
+            # sys.exit()
+        else:
+            logger.warning("暂无此功能")
+    sys.exit()
